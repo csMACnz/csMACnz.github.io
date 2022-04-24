@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on csMACnz&#39;s Site</title>
-    <link>https://csMACnz.github.io/categories/</link>
+    <link>https://csmacnz.github.io/categories/</link>
     <description>Recent content in Categories on csMACnz&#39;s Site</description>
     <image>
-      <url>https://csMACnz.github.io/favicon.png</url>
+      <url>https://csmacnz.github.io/favicon.png</url>
       <title>csMACnz&#39;s Site</title>
-      <link>https://csMACnz.github.io</link>
+      <link>https://csmacnz.github.io</link>
     </image>
     <ttl>1440</ttl>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-nz</language><atom:link href="https://csMACnz.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-nz</language><atom:link href="https://csmacnz.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
