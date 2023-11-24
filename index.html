@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-	<meta name="generator" content="Hugo 0.85.0" />
+	<meta name="generator" content="Hugo 0.115.4">
 
         <script>
             if(!/csmacnz\.github\.io/.test(window.location.host)) {
@@ -71,11 +71,12 @@
                 <h1 class="header-area-title">csMACnz</h1>
             </header>
             <nav class="navigation-area header-bar-parent">
-                <div class="header-bar header-bar-blog">
+                <div class="header-bar header-bar-home">
                     <ul class="menu">
                         <li class="menu-item"><a class="menu-item-content CurrentButton">Home</a></li>
                         <li class="menu-item"><a class="menu-item-content" href="/baconvaders">Bacon Vaders</a></li>
                         <li class="menu-item"><a class="menu-item-content" href="https://blog.csmac.nz">Blog</a></li>
+                        <li class="menu-item"><a class="menu-item-content" href="/metablog">Meta</a></li>
                     </ul>
                 </div>
             </nav>
@@ -86,39 +87,12 @@
 
 
 
-<article class="content-box">
-  <p>Welcome to csmac.co.nz, my little corner of cyber space.</p>
-  <h3 class="update-date">Wednesday 28 July 2021</h3>
-  <p class="update-content">Finally Migrating my blog over slowly to static site generation. Coming soon. I should also really move these notes to a better meta-blog page...</p>
-  <h3 class="update-date">Tuesday 17 May 2016</h3>
-  <p class="update-content">Took a 6 month break, but I am now blogging again. Click on Blog above to check it out.</p>
-  <h3 class="update-date">Monday 22 June 2015</h3>
-  <p class="update-content">Finally, after six months of running on someone else's theme, <a href="http://blog.csmac.nz/">my blog</a> has been reskinned to match the rest of my site.  Next steps are to move this meta log to a release notes style page, and update the index and other content pages needed.</p>
-  <h3 class="update-date">Thursday 28 May 2015</h3>
-  <p class="update-content">This week I rewrote all my css to be more 'modern'. I dropped the madness that was all those divs and images, and I'm now using plain old css rounded corners. Next step, port the css across to the blog as well, and reorganise my content.</p>
-  <h3 class="update-date">Tuesday 30 December 2014</h3>
-  <p class="update-content">Just updated these notes to display justified, much nicer to read. Blogging with <a href="https://ghost.org/">Ghost</a> is going well, I've managed a post a week for 5 weeks so far, hopefully that is a trend that will continue.  New Years resolution, at least get Ghost on the same theme as the rest of the site.</p>
-  <h3 class="update-date">Monday 27 October 2014</h3>
-  <p class="update-content">My wordpress blog got neglected, as did most of the site, but i've blown off the cobwebs, migrated everthing to azure and now have <a href="http://blog.csmac.nz/">my blog</a> on Ghost. Hopefully everything redirects correct and I find some time to post again. Also custom blog theme still to come.</p>
-  <h3 class="update-date">Thursday 5 April 2012</h3>
-  <p class="update-content">Another update to my website skin, and about halfway through my blog skin as well. Hopefully will have the blog skin complete in the next two months and can get down to small tweaks and pushing more content!</p>
-  <h3 class="update-date">Friday 3 June 2011</h3>
-  <p class="update-content">Ok, so less time has passed then between the last two messages, but in this case, the good news is the blog has been much more active. Have just added the landing page to my first Windows Phone 7 application, a game called <a href="http://www.csmac.co.nz/baconvaders">Bacon Vaders</a>.</p>
-  <h3 class="update-date">Monday 9 August 2010</h3>
-  <p class="update-content">Wow, over 2 years later I finally make another comment, pretty bad! I've finally started thinking about rebuilding the landing page, and since I've started actively (sort of) using my <a href="http://www.csmac.co.nz/blog">wordpress blog</a> again, I think its about time! I have big plans to build a completely Silverlight site, but time will tell if that dream becomes a reality, or if it just becomes a feature. Stay tuned...</p>
-  <h3 class="update-date">Monday 1 December 2008</h3>
-  <p class="update-content">This site has been slowly neglected but i can assure you that it will be finished someday soon.  I have plans to build a few sites for people and in the process update mine, using a bit of php and building some sort of Content Management System to do so. Also now that i have a bit more free time, i should be able to put a few more posts up.</p>
-  <h3 class="update-date">Friday 13 June 2008</h3>
-  <p class="update-content">My Website theme is slowly coming along, here is the next installment for you all to see.  How you all enjoy the banner, i put quite a bit of time into it to make it all pretty and geeky.  Stay tuned for some more blog posts and some actual content for the right hand side bar.</p>
-  <h3 class="update-date">Sunday 11 May 2008</h3>
-  <p class="update-content">It has been nearly 4 months since i last commented on this page, but i have added a few posts on my blog since then.  This page site has a long way to come before it all fits together seamlessly, but unfortunately university takes priority over hobbyist activities.</p>
-  <h3 class="update-date">Friday 18 January 2008</h3>
-  <p class="update-content">It's time to do at least something to the way this page looks, i was getting sick of the colours, hopefully it looks better now.</p>
-  <h3 class="update-date">Monday 5 November 2007</h3>
-  <p class="update-content">Word Press is up and running. check out my blog <a href="http://www.csmac.co.nz/blog">here</a>.  I'll get around to finishing off this page and integrating it with my blog after I have finished my exams. Sweet.</p>
-  <h3 class="update-date">Thursday 1 November 2007</h3>
-  <p class="update-content">Hello World! I've finally got a permanent home on the internet. Good times. To anyone who reads this page, welcome and enjoy what is to come.  Im planning on uploading and installing a blog using word press sometime in the next week or two, so keep an eye out for that one.</p>
+<article class="content-box"><p>Welcome to csmac.co.nz, my little corner of cyber space.</p>
 </article>
+
+
+<div hx-get="https://blog.csmac.nz/latest/index.html" hx-swap="outerHTML" hx-trigger="load">
+</div>
 
 
 
@@ -129,9 +103,10 @@
 <!--Sidebar Content Begins-->
 
                 <div class="header-bar-parent sidebar-item">
-                    <div class="header-bar header-bar-twitter">Twitter</div>
+                    <div class="header-bar header-bar-mastodon">Mastodon</div>
                     
-                    <a class="twitter-timeline" data-lang="en" data-height="510" data-dnt="true" href="https://twitter.com/csMACnz?ref_src=twsrc%5Etfw">Tweets by csMACnz</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    
+                    <iframe allowfullscreen sandbox="allow-top-navigation allow-scripts" width="280" height="400" src="https://maplefeed.bihlink.com/apiv2/feed?userurl=https%3A%2F%2Fmastodon.nz%2F%2Fusers%2Fcsmacnz&theme=modern-light&size=80&header=true&replies=false&boosts=false"></iframe>
                     
                 </div>
 
@@ -201,6 +176,9 @@
         <script>hljs.initHighlightingOnLoad();</script>
 
         <script src="/js/codetoggle.js"></script> 
+
+        
+        <script src="/js/htmx.min.js"></script>
 
         
         <script>
