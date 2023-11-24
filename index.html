@@ -90,9 +90,29 @@
 <article class="content-box"><p>Welcome to csmac.co.nz, my little corner of cyber space.</p>
 </article>
 
-
-<div hx-get="https://csmacnzblog.github.io/latest/index.html" hx-swap="outerHTML" hx-trigger="load">
-</div>
+<div id="latestpostframe" data-include-html="https://blog.csmac.nz/latest/index.html"></div>
+<script>
+(function includeHTML() {
+  var elmnt, file, xhttp;
+   
+  elmnt = document.getElementById("latestpostframe");
+   
+  file = elmnt.getAttribute("data-include-html");
+  if (file) {
+     
+    xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (this.readyState == 4) {
+        if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+      }
+    } 
+    xhttp.open("GET", file, true);
+    xhttp.send();
+     
+    return;
+  }
+})()
+</script>
 
 
 
