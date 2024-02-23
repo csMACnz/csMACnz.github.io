@@ -135,6 +135,13 @@ pre code {
   padding: 10px 20px 20px 20px;
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: 640px) {
+  .content-area .content-box .post-content iframe {
+    width: 100%;
+  }
+}
+
 .sidebar-area {
   box-sizing: border-box;
   vertical-align: top;
@@ -221,6 +228,21 @@ pre code {
     max-width: 100%;  
 }
 
+.mt-container {
+  display: block;
+  height: 600px;
+  font-size: 0.7em;
+}
+
+.mt-body {
+  margin: 0;
+  padding: 0;
+}
+
+.mt-post {
+  margin: 0;
+}
+
 @media screen and (min-width: 450px) {
   .header-area {
     background-image: url('/images/headerbanner_dark_half.png');
@@ -229,7 +251,7 @@ pre code {
     width: 409px;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 950px) {
   body {
     background-color: #ffffff;
     background-image: url('/images/DarkBackground.jpg');
