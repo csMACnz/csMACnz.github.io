@@ -117,6 +117,65 @@
 </script>
 
 
+<article class="content-box">
+  <style>
+ 
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+ 
+.vibeblog-animated {
+    font-size: 1.7em;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.vibeblog-animated span {
+    display: inline-block;
+    animation: rainbow-cycle 6s ease-in-out infinite;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+ 
+ 
+.vibeblog-animated span:nth-child(2) { animation-delay: 0s; }
+.vibeblog-animated span:nth-child(3) { animation-delay: 0.2s; }
+.vibeblog-animated span:nth-child(4) { animation-delay: 0.4s; }
+.vibeblog-animated span:nth-child(5) { animation-delay: 0.6s; }
+.vibeblog-animated span:nth-child(6) { animation-delay: 0.8s; }
+.vibeblog-animated span:nth-child(7) { animation-delay: 1s; }
+.vibeblog-animated span:nth-child(8) { animation-delay: 1.2s; }
+.vibeblog-animated span:nth-child(9) { animation-delay: 1.4s; }
+
+@keyframes rainbow-cycle {
+    0% { color: #c98700; }  
+    14% { color: #a67300; }  
+    28% { color: #b38100; }  
+    42% { color: #0080a6; }  
+    56% { color: #006b8f; }  
+    70% { color: #0090b8; }  
+    84% { color: #3a3a3a; }  
+    100% { color: #c98700; }  
+}
+  </style>
+<p>I created a <span class="vibeblog-animated"><span class="sr-only">VibeBlog</span><span aria-hidden="true">V</span><span aria-hidden="true">i</span><span aria-hidden="true">b</span><span aria-hidden="true">e</span><span aria-hidden="true">B</span><span aria-hidden="true">l</span><span aria-hidden="true">o</span><span aria-hidden="true">g</span></span>, it practically writes itself!</p>
+<p>Seriously, as a learning exercise in various Github Copilot features, it has been great fun to build out a daily generated blog site with minimal human-in-the-loop vibes. Check it out if you are interested.</p>
+<ul>
+  <li><b><a href="https://blog.csmac.nz/Vibeblogging/" target="_blank" rel="noopener">https://blog.csmac.nz/Vibeblogging/</a></b></li>
+  <li><b><a href="https://github.com/csMACnzBlog/Vibeblogging" target="_blank" rel="noopener">https://github.com/csMACnzBlog/Vibeblogging</a></b></li>
+</ul>
+</article>
+
+
 
 <!--Page Content Ends-->
 
